@@ -1,0 +1,11 @@
+[workspace]
+members = ["/cargo-nested3"]
+
+[package]
+name = "test-cargo-nested2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+unavailable-rust-lib-abc = "3.0.0"
+missing-user = { git = "https://github.com/missing-user/deleted-rust-repo" }
