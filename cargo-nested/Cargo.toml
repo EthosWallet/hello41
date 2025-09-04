@@ -1,0 +1,11 @@
+[workspace]
+members = ["./cargo-nested2"]
+
+[package]
+name = "test-cargo-nested"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fake-rust-crate-xyz = "2.0.0"
+missing-github-org = { git = "https://github.com/missing-github-org/nonexistent-crate" }
