@@ -1,0 +1,11 @@
+[workspace]
+members = ["../cargo-nested"]
+
+[package]
+name = "test-cargo-root"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nonexistent-crate-12345 = "1.0.0"
+deleted-github-user = { git = "https://github.com/deleted-github-user/missing-rust-repo" }
