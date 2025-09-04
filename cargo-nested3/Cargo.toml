@@ -1,0 +1,8 @@
+[package]
+name = "test-cargo-nested3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+missing-final-rust-crate = "1.5.0"
+removed-org = { git = "https://github.com/removed-org/missing-rust-action" }
